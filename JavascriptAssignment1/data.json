@@ -1,0 +1,6 @@
+var images= [{"id":1,"URL": "http://i2.wp.com/static.vectorcharacters.net/uploads/2013/04/Boy_Vector_Character_with_Bag_and_Notepad_Preview.jpg?resize=594%2C559","Name": "gallery_photo1","Information": "My one of the photo in gallery.","Uploaded Date": "14/09/2017"}
+,{"id":2,"URL": "http://www.headlightfixer.com/wp-content/uploads/2015/05/Welcome_Businessman_Vector_Character_Preview.jpg","Name": "gallery_photo2","Information": "My one of the photo in gallery.","Uploaded Date": "14/09/2017"}
+,{"id":3,"URL": "https://lamenteesmaravillosa.com/wp-content/uploads/2015/07/C%C3%A1ncer12.jpg","Name": "gallery_photo3","Information": "My one of the photo in gallery.","Uploaded Date": "14/09/2017"}
+,{"id":4,"URL": "https://i2.wp.com/news.travelerpedia.net/wp-content/uploads/2012/03/kaza-preserve-elephants.jpg?resize=600%2C390&ssl=1","Name": "gallery_photo4","Information": "My one of the photo in gallery.","Uploaded Date": "14/09/2017"}
+,{"id":5,"URL": "http://www.ezroadtrips.com/blogs/2017/8/img/1.jpg","Name": "gallery_photo5","Information": "My one of the photo in gallery.","Uploaded Date": "14/09/2017"}
+,{"id":6,"URL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo6VNvIc-2X88qRebyEwM762xicBuIEYn4ZA15jMPzlkzsqEW21A","Name": "gallery_photo6","Information": "My one of the photo in gallery.","Uploaded Date": "14/09/2017"}];

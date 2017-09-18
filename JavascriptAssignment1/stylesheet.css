@@ -1,0 +1,104 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 60px;
+    background-color: #e7e7e7;
+}
+
+main {
+    flex: auto;
+    overflow: auto;
+    background-color: skyblue;
+}
+
+footer {
+    height: 50px;
+    background-color: #e7e7e7;
+    display: flex;
+}
+
+#header-navigation{
+    background-color: #333;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+.header-li{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header-a{
+    display: flex;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.header-a:hover {
+    background-color: #111;
+}
+
+.header-a:active {
+    background-color: green;
+}
+
+.homecontents{
+    display: flex;
+    flex-direction: row;
+}
+#home-data{
+    padding: 30px 0px 0px 300px;
+}
+#footer-copyright{
+    flex: 2;
+}
+#footer-items{
+    padding: 13px;
+}
+#aboutme-contents{
+    padding: 20px 0px 0px 300px;
+}
+#contactme-contents{
+    padding: 20px 0px 0px 300px;
+}
+#galleryItems{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+span{
+	color:red;
+}
+.form{
+	margin:10px;
+}
+#message{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#gallery-images{
+	margin: 2px;
+	max-width: 150px;
+	max-height: 250px;
+	min-height: 250px;
+	max-height: 150px;
+}
+#buttons{
+	float: right;
+	background-color: #e6e6e;
+	clear: left;
+}
