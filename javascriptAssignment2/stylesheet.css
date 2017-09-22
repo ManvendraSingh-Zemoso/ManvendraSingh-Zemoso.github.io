@@ -1,0 +1,43 @@
+body{
+	display: flex;
+	flex-direction: row;
+}
+#tables{
+	display: flex;
+	flex-direction: column;
+	margin-right: 10px;
+	flex: 1;
+}
+#menu{
+	display: flex;
+	flex-direction: column;
+	flex: 2.5;
+	border-left:3px solid black;
+}
+h2{
+	text-align: center;
+}
+#inputMenu{
+	margin-left: 12px;
+}
+#menuContents{
+	margin-left: 10px;
+}
+.menuItems{
+	border: thin solid black;
+	margin: 2px;
+}
+.tablesItems{
+	border: thin solid black;
+	margin-top: 2px;
+}
+.tablesItemsContents{
+	display: flex;
+}
+#view{
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}

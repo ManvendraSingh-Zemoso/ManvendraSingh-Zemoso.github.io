@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<script type="text/javascript" src="data.json"></script>
+	    <script type="text/javascript" src="script.js"></script>
+		<title>ZemosoRestaurant</title>
+	</head>
+	<body onload="addTables(),addItems(),addTablesView()">
+		<div id="tables">
+			<h2>Tables</h2>
+			<input id="inputTables" type="Search" placeholder="Search for tables here..." onkeyup="searchTables()" onsearch="searchTables()">
+			<div id="tablesContents"></div>
+		</div>
+
+		<div id="menu">
+			<h2>Menu</h2>
+			<input id="inputMenu" type="Search" placeholder="Search for items here...by course,by food.." onkeyup="searchItems()" onsearch="searchItems()">
+			<div id="menuContents"></div>
+		</div>
+
+		<div id="view">
+			
+		</div>
+
+	</body>
+</html>
